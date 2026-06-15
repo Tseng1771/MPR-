@@ -184,6 +184,6 @@ nav a:hover{
     }
 }
 *{
-	outline:1px solid red;
+	outline:1px solid red !important;
 }
 </style>
