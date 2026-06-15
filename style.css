@@ -184,9 +184,7 @@ nav a:hover{
         max-width:420px;
     }
 }
-*{
-	outline:1px solid red !important;
-}
+
 body{
 	overflow-y:auto !important;
 	height:auto !important;
