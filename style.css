@@ -146,10 +146,25 @@ nav a:hover{
     font-size:18px;
     line-height:1.6;
 }
+/* ====================================
+   RESPONSIVE HP
+==================================== */
+
 @media (max-width:600px){
+
+    nav{
+        gap:10px;
+        font-size:14px;
+    }
+
+    header img{
+        width:300px;
+    }
+
     .gudang-section img{
-        width:95%;
         max-width:420px;
     }
+
 }
+
 </style>
