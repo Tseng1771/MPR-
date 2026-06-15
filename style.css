@@ -1,5 +1,11 @@
 <style>
-
+*{
+	box-sizing:border-box;
+}
+html, body{
+	width:100%;
+	overflow:hidden;
+}
 body{
     margin:0;
     font-family:Arial, sans-serif;
@@ -149,22 +155,33 @@ nav a:hover{
 /* ====================================
    RESPONSIVE HP
 ==================================== */
-
 @media (max-width:600px){
 
     nav{
         gap:10px;
+        flex-wrap:nowrap;
+    }
+
+    nav a{
         font-size:14px;
     }
 
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    .card{
+        width:100%;
+    }
+
     header img{
-        width:300px;
+        max-width:90%;
     }
 
     .gudang-section img{
+        width:95%;
         max-width:420px;
     }
-
 }
 
 </style>
