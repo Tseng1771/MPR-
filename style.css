@@ -146,4 +146,10 @@ nav a:hover{
     font-size:18px;
     line-height:1.6;
 }
+@media (max-width:600px){
+    .gudang-section img{
+        width:95%;
+        max-width:420px;
+    }
+}
 </style>
