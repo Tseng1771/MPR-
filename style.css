@@ -124,4 +124,24 @@ nav a:hover{
         grid-template-columns:1fr 1fr;
     }
 }
+.gudang-section{
+    background:white;
+    padding:40px 20px;
+    text-align:center;
+}
+
+.gudang-section img{
+    width:100%;
+    max-width:900px;
+    border-radius:15px;
+    margin:20px 0;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+.gudang-section p{
+    max-width:800px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.6;
+}
 </style>
