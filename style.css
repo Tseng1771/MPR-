@@ -162,9 +162,20 @@ nav a:hover{
 		max-width:420px;
 	}
 }
-body{
-	overflow-y:auto !important;
-	height:auto !important;
-	min-height:100vh;
+.gudang-section{
+    height:auto !important;
+    overflow:visible !important;
+    text-align:center;
 }
+
+.gudang-section img{
+    width:90% !important;
+    max-width:650px !important;
+    height:auto !important;
+    object-fit:contain !important;
+    display:block !important;
+    margin:20px auto !important;
+    border-radius:12px;
+}
+
 </style>
