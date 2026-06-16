@@ -81,17 +81,18 @@ nav a{
 
 nav a:hover{
     color:#28a745;
-}    
+}  
+
 .card{
-    background:white;
+    background:#1f1f1f;
     padding:15px;
     margin:15px 0;
-    border-radius:10px;
-    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+    border-radius:12px;
+	box-shadow:0 4px 12px rgba(0,0,0,0.2);
 }
 
 .card h3{
-    color:#0d6efd;
+	color:#4dabf7;
 }
 .whatsapp-float{
     position:fixed;
