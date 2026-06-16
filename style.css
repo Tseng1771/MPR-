@@ -117,7 +117,7 @@ nav a:hover{
 	color:#4dabf7;
 }
 .card img{
-    width:100%;
+    width:90%;
     height:220px;
     object-fit:cover;
     border-radius:10px;
