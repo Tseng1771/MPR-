@@ -154,8 +154,11 @@ nav a:hover{
     font-size:18px;
     line-height:1.6;
 }
-.keunggulan{
-    padding:40px 20px;
+.keunggulan
+	max-width:800px;
+	margin:20px auto;
+    padding:20px;
+ 	border-radius:10px;
     background:white;
 }
 
