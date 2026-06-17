@@ -278,6 +278,10 @@ nav a:hover{
     animation-delay:8s;
 }
 
+.slide4{
+    animation-delay:12s;
+}
+
 @keyframes slider{
     0%{opacity:0;}
     10%{opacity:1;}
