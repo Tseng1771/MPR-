@@ -66,11 +66,27 @@ header{
     box-shadow:0 4px 12px rgba(0,0,0,0.15);
 }
 footer{
-    background:#222;
+    background:#111;
     color:white;
     text-align:center;
-    padding:15px;
+    padding:40px 20px;
 }
+
+footer h3{
+    color:#4dabf7;
+    margin-bottom:10px;
+}
+
+footer p{
+    line-height:1.7;
+}
+
+.copyright{
+    font-size:14px;
+    color:#aaa;
+    margin-top:20px;
+}
+
 nav{
     display:flex;
     justify-content:center;
