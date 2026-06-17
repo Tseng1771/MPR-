@@ -295,6 +295,11 @@ nav a:hover{
 		max-width:420px;
 	}
 }
+@media (max-width:600px){
+    .slider{
+        height:180px;
+    }
+}
 .gudang-section{
     height:auto !important;
     overflow:visible !important;
