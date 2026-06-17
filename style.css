@@ -212,6 +212,27 @@ nav a:hover{
     font-weight:bold;
     box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
+.testimoni{
+    padding:60px 20px;
+    background:#f8f9fa;
+    text-align:center;
+}
+
+.testimoni-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    max-width:1000px;
+    margin:auto;
+}
+
+.testimoni-card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
 /* ====================================
    RESPONSIVE HP
 ==================================== */
