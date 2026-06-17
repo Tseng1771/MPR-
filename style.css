@@ -250,17 +250,16 @@ nav a:hover{
 }
 .slider{
     width:100%;
-    max-width:800px;
+    max-width:900px;
     height:120px;
     margin:auto;
     overflow:hidden;
+	border-radius:15px;
 }
 
 .slides{
 	display:flex;
-    width:100%;
-    height:100%;
-    object-fit:contain;
+    width:300%;
     animation:slide 12s infinite;
 }
 .slides img{
@@ -268,21 +267,7 @@ nav a:hover{
     height:250px;
     object-fit:cover;
 }
-.slide1{
-    animation-delay:0s;
-}
 
-.slide2{
-    animation-delay:4s;
-}
-
-.slide3{
-    animation-delay:8s;
-}
-
-.slide4{
-    animation-delay:12s;
-}
 @keyframes slide{
 
     0%,25%{
@@ -300,13 +285,6 @@ nav a:hover{
     100%{
         transform:translateX(0%);
     }
-}
-@keyframes slider{
-    0%{opacity:0;}
-    10%{opacity:1;}
-    30%{opacity:1;}
-    40%{opacity:0;}
-    100%{opacity:0;}
 }
 
 /* ====================================
