@@ -14,19 +14,19 @@ body{
 }
     header img{
     width: 450px;
-    max-width: 90%;
+    max-width: 100%;
 	display: block;
 	margin:auto;
-	margin-bottom:15px;
+	margin-bottom:0px;
     background: transparent;
     padding: 0;
     border-radius: 0;
 }
 header{
-    background:#0d6efd;
+    background:white;
     color:white;
     text-align:center;
-    padding:30px;
+   
 }
 
 .hero{
@@ -254,6 +254,7 @@ nav a:hover{
     margin:auto;
     overflow:hidden;
 	border-radius:15px;
+    height: 400px;
 }
 
 .slides{
@@ -262,12 +263,11 @@ nav a:hover{
     animation:slide 12s infinite;
 }
 .slides img{
-	object-fit:contain;
-	background:#0d6afd;
-	width:100%;
-    height:250px;
-    object-fit:cover;
-}
+	width:33.333%;
+    height:100%;
+    object-fit:contain;
+    flex-shrink:0;
+}   
 
 @keyframes slide{
 
@@ -299,7 +299,7 @@ nav a:hover{
 }
 @media (max-width:600px){
     .slider{
-        height:180px;
+        height:120px;
     }
 }
 .gudang-section{
